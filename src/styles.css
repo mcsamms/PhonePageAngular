@@ -1,1 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
+#phonetitlecontainer{
+    text-align: center !important;
+}
+
+.imgcontainer{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align:center;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+.bold{
+    font-weight: bold;
+}
+
+img.thumb{
+    height:200px;
+    width:auto;
+}
+
+.grey{
+    color:rgb(97, 97, 97);
+}
+
+.card-text{
+    text-align:left;;
+}
+
+.bodypadding{
+    padding:20px;
+}
+
+.card{
+    min-width: 250px;
+    /* max-width: 350px; */
+}

@@ -1,0 +1,188 @@
+<div id="phonescontainer" style="text-align: center;">
+  <h1 class="display-4 grey">
+    {{title}}
+  </h1>
+  <p class="lead">
+    Welcome to our phones page. We have every phone imaginable
+  </p>
+</div>
+<div class="card-deck mb-3 text-center">
+
+  <div class="card mb-4 box-shadow" style="width: 18rem;">
+    <div class="card-header">
+      <h4 class="my-0 font-weight-normal">{{phone1.make}}{{phone1.model}}</h4>
+    </div>
+    <div class="imgcontainer">
+      <img class="card-img-top thumb" src="{{phone1.thumbnailPath}}" alt="{{phone1.make}}{{phone1.model}}">
+    </div>
+    <div class="card-body">
+      <div class="card-text">
+        <table>
+          <tr>
+            <td class="bold">Make:</td>
+            <td>{{phone1.make}}</td>
+          </tr>
+          <tr>
+            <td class="bold">Model:</td>
+            <td>{{phone1.model}}</td>
+          </tr>
+          <tr>
+            <td class="bold">Manufacturer:</td>
+            <td>{{phone1.manufacturer}}</td>
+          </tr>
+          <tr>
+            <td class="bold">OS:</td>
+            <td>{{phone1.os}}</td>
+          </tr>
+          <tr>
+            <td class="bold">Memory:</td>
+            <td>{{phone1.memory}}</td>
+          </tr>
+          <tr>
+            <td class="bold">Storage:</td>
+            <td>{{phone1.storage}}</td>
+          </tr>
+          <tr>
+            <td class="bold">CPU:</td>
+            <td>{{phone1.cpu}}</td>
+          </tr>
+          <tr>
+            <td class="bold">Resolution:</td>
+            <td>{{phone1.resolution}}</td>
+          </tr>
+          <tr>
+            <td class="bold">Phone Cost:</td>
+            <td>{{phone1.baseCost}}</td>
+          </tr>
+          <tr>
+            <td class="bold">Terms:</td>
+            <td>{{phone1.baseMonthlyContract}} months</td>
+          </tr>
+          <tr>
+            <td class="bold">Monthly Payment:</td>
+            <td>{{phone1.monthlyPayment | number : '2.2-2'}}</td>
+          </tr>
+        </table>
+      </div>
+      <a href="#" class="btn btn-primary">Details</a>
+    </div>
+  </div>
+  <div class="card mb-4 box-shadow" style="width: 18rem;">
+    <div class="card-header">
+      <h4 class="my-0 font-weight-normal">{{phone2.make}}{{phone2.model}}</h4>
+    </div>
+    <div class="imgcontainer">
+      <img class="card-img-top thumb" src="{{phone2.thumbnailPath}}" alt="{{phone2.make}}{{phone2.model}}">
+    </div>
+    <div class="card-body">
+      <div class="card-text">
+        <table>
+          <tr>
+            <td class="bold">Make:</td>
+            <td>{{phone2.make}}</td>
+          </tr>
+          <tr>
+            <td class="bold">Model:</td>
+            <td>{{phone2.model}}</td>
+          </tr>
+          <tr>
+            <td class="bold">Manufacturer:</td>
+            <td>{{phone2.manufacturer}}</td>
+          </tr>
+          <tr>
+            <td class="bold">OS:</td>
+            <td>{{phone2.os}}</td>
+          </tr>
+          <tr>
+            <td class="bold">Memory:</td>
+            <td>{{phone2.memory}}</td>
+          </tr>
+          <tr>
+            <td class="bold">Storage:</td>
+            <td>{{phone2.storage}}</td>
+          </tr>
+          <tr>
+            <td class="bold">CPU:</td>
+            <td>{{phone2.cpu}}</td>
+          </tr>
+          <tr>
+            <td class="bold">Resolution:</td>
+            <td>{{phone2.resolution}}</td>
+          </tr>
+          <tr>
+            <td class="bold">Phone Cost:</td>
+            <td>{{phone2.baseCost}}</td>
+          </tr>
+          <tr>
+            <td class="bold">Terms:</td>
+            <td>{{phone2.baseMonthlyContract}} months</td>
+          </tr>
+          <tr>
+            <td class="bold">Monthly Payment:</td>
+            <td>{{phone2.monthlyPayment | number : '2.2-2'}}</td>
+          </tr>
+        </table>
+      </div>
+      <a href="#" class="btn btn-primary">Details</a>
+    </div>
+  </div>
+  <div class="card mb-4 box-shadow" style="width: 18rem;">
+    <div class="card-header">
+      <h4 class="my-0 font-weight-normal">{{phone3.make}}{{phone3.model}}</h4>
+    </div>
+    <div class="imgcontainer">
+      <img class="card-img-top thumb" src="{{phone3.thumbnailPath}}" alt="{{phone3.make}}{{phone3.model}}">
+    </div>
+    <div class="card-body">
+      <div class="card-text">
+        <table>
+          <tr>
+            <td class="bold">Make:</td>
+            <td>{{phone3.make}}</td>
+          </tr>
+          <tr>
+            <td class="bold">Model:</td>
+            <td>{{phone3.model}}</td>
+          </tr>
+          <tr>
+            <td class="bold">Manufacturer:</td>
+            <td>{{phone3.manufacturer}}</td>
+          </tr>
+          <tr>
+            <td class="bold">OS:</td>
+            <td>{{phone3.os}}</td>
+          </tr>
+          <tr>
+            <td class="bold">Memory:</td>
+            <td>{{phone3.memory}}</td>
+          </tr>
+          <tr>
+            <td class="bold">Storage:</td>
+            <td>{{phone3.storage}}</td>
+          </tr>
+          <tr>
+            <td class="bold">CPU:</td>
+            <td>{{phone3.cpu}}</td>
+          </tr>
+          <tr>
+            <td class="bold">Resolution:</td>
+            <td>{{phone3.resolution}}</td>
+          </tr>
+          <tr>
+            <td class="bold">Phone Cost:</td>
+            <td>{{phone3.baseCost}}</td>
+          </tr>
+          <tr>
+            <td class="bold">Terms:</td>
+            <td>{{phone3.baseMonthlyContract}} months</td>
+          </tr>
+          <tr>
+            <td class="bold">Monthly Payment:</td>
+            <td>{{phone3.monthlyPayment | number : '2.2-2'}}</td>
+          </tr>
+        </table>
+      </div>
+      <a href="#" class="btn btn-primary">Details</a>
+    </div>
+  </div>
+</div>
